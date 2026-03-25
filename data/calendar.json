@@ -1,7 +1,35 @@
 {
-  "updated": "2024-01-01T00:00:00Z",
-  "source": "Seed data — run GitHub Action to fetch live events",
-  "from": "2024-01-01",
-  "to": "2024-01-14",
-  "events": []
+  "updated": "2026-03-25T23:16:40.456983Z",
+  "source": "Finnhub Economic Calendar API",
+  "from": "2026-03-25",
+  "to": "2026-04-08",
+  "events": [
+    {
+      "id": "placeholder-1",
+      "time": "2026-03-25T13:30:00",
+      "name": "Add your FINNHUB_KEY to GitHub Secrets",
+      "source": "MacroDesk Setup",
+      "impact": "high",
+      "tags": [
+        "USD"
+      ],
+      "forecast": "\u2014",
+      "prior": "\u2014",
+      "actual": null,
+      "unit": "",
+      "reactions": [
+        {
+          "a": "Setup",
+          "m": "Required",
+          "d": "neu"
+        }
+      ],
+      "detail": {
+        "desc": "Go to your GitHub repo \u2192 Settings \u2192 Secrets and variables \u2192 Actions \u2192 New repository secret. Add FINNHUB_KEY (from finnhub.io, free) and FRED_KEY (from fred.stlouisfed.org, free). Then trigger the workflow manually from the Actions tab.",
+        "history": "See README.md for full setup instructions.",
+        "watch": "After adding your keys, click Actions \u2192 Fetch Macro Data Daily \u2192 Run workflow",
+        "trade": "Once keys are set, real economic events will appear here automatically."
+      }
+    }
+  ]
 }
