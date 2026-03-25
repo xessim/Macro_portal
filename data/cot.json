@@ -1,0 +1,17 @@
+{
+  "updated": "2024-01-01T00:00:00Z",
+  "source": "Seed data — run GitHub Action to fetch live CFTC COT data",
+  "note": "No API key required. Data comes directly from publicreporting.cftc.gov",
+  "report_date": null,
+  "instruments": [],
+  "extremes": [],
+  "failed": [],
+  "summary": {
+    "total": 0,
+    "extreme_long": 0,
+    "crowded_long": 0,
+    "neutral": 0,
+    "crowded_short": 0,
+    "extreme_short": 0
+  }
+}

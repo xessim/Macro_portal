@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MacroDesk — Global Macro Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ── SIDEBAR ── -->
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <div class="wordmark">MacroDesk</div>
+      <div class="sub">Global Macro Portal</div>
+    </div>
+
+    <div class="nav">
+      <div class="nav-section">
+        <div class="nav-label">Markets</div>
+        <div class="nav-item active" data-page="calendar" onclick="navigate('calendar')">
+          <svg class="nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="1" y="2" width="14" height="13" rx="2"/><path d="M5 1v2M11 1v2M1 6h14"/>
+          </svg>
+          Macro Calendar
+        </div>
+        <div class="nav-item" data-page="cot" onclick="navigate('cot')">
+          <svg class="nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12 L5 8 L8 10 L11 5 L14 7"/><circle cx="14" cy="7" r="1.5" fill="currentColor" stroke="none"/>
+          </svg>
+          COT Positioning
+        </div>
+        <div class="nav-item" data-page="regime" onclick="navigate('regime')">
+          <svg class="nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="8" cy="8" r="6"/><path d="M8 4v4l3 2"/>
+          </svg>
+          Regime Detector
+        </div>
+      </div>
+
+      <div class="nav-section">
+        <div class="nav-label">Portfolio</div>
+        <div class="nav-item" data-page="journal" onclick="navigate('journal')">
+          <svg class="nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 2h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"/><path d="M5 5h6M5 8h6M5 11h4"/>
+          </svg>
+          Trade Journal
+        </div>
+        <div class="nav-item" data-page="thesis" onclick="navigate('thesis')">
+          <svg class="nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M8 1L10 6H15L11 9L12.5 14L8 11L3.5 14L5 9L1 6H6Z"/>
+          </svg>
+          Thesis Builder
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="team-badge">
+        <div class="team-dot"></div>
+        <div class="team-text"><strong>Team Portal</strong><br>Global Macro Fund</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── MAIN ── -->
+  <div class="main">
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <div class="topbar-title" id="topbar-title">Macro Calendar</div>
+      <div class="topbar-meta" id="topbar-time"></div>
+      <div id="data-status" style="font-size:11px;color:var(--text3);font-family:var(--font-mono);" title="Last data fetch">—</div>
+      <div class="live-pill"><div class="live-dot"></div>LIVE</div>
+    </div>
+    <!-- FX Ticker Bar -->
+    <div id="fx-ticker-bar" style="display:none;background:var(--bg2);border-bottom:1px solid var(--border);overflow-x:auto;white-space:nowrap;height:36px;align-items:center;">
+      <div id="fx-ticker" style="display:inline-flex;align-items:center;height:100%;"></div>
+    </div>
+
+    <div class="page-content">
+
+      <!-- ──────────────────────────────────────────── -->
+      <!-- PAGE: CALENDAR                               -->
+      <!-- ──────────────────────────────────────────── -->
+      <div class="page active" id="page-calendar">
+
+        <!-- Summary strip -->
+        <div class="grid-4" style="margin-bottom:20px;">
+          <div class="card card-sm">
+            <div class="metric-label">Next high-impact event</div>
+            <div class="metric-val" id="dash-next-event" style="font-size:16px;margin-top:6px;">—</div>
+            <div class="metric-change neutral" id="dash-next-time">—</div>
+          </div>
+          <div class="card card-sm">
+            <div class="metric-label">Extreme positioning signals</div>
+            <div class="metric-val up" id="dash-extremes">—</div>
+            <div class="metric-change neutral">COT extremes</div>
+          </div>
+          <div class="card card-sm">
+            <div class="metric-label">Open trades</div>
+            <div class="metric-val accent-text" id="dash-open-trades" style="color:var(--accent)">—</div>
+            <div class="metric-change neutral">in journal</div>
+          </div>
+          <div class="card card-sm">
+            <div class="metric-label">Regime</div>
+            <div id="dash-regime" style="font-size:11px;color:var(--text2);line-height:1.6;margin-top:8px;">Loading…</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Upcoming macro events</div>
+            <div class="filter-row" id="cal-filters" style="margin:0">
+              <button class="filter-btn active" onclick="setCalFilter('all',this)">All</button>
+              <button class="filter-btn" onclick="setCalFilter('USD',this)">USD</button>
+              <button class="filter-btn" onclick="setCalFilter('EUR',this)">EUR</button>
+              <button class="filter-btn" onclick="setCalFilter('JPY',this)">JPY</button>
+              <button class="filter-btn" onclick="setCalFilter('GBP',this)">GBP</button>
+              <button class="filter-btn" onclick="setCalFilter('RATES',this)">Rates</button>
+              <button class="filter-btn" onclick="setCalFilter('EQUITY',this)">Equity</button>
+            </div>
+          </div>
+          <div id="cal-events"></div>
+        </div>
+      </div>
+
+      <!-- ──────────────────────────────────────────── -->
+      <!-- PAGE: COT POSITIONING                        -->
+      <!-- ──────────────────────────────────────────── -->
+      <div class="page" id="page-cot">
+
+        <div class="card" style="margin-bottom:16px;">
+          <div class="card-header">
+            <div class="card-title">Extreme positioning signals</div>
+            <span style="font-size:11px;color:var(--text3);">Contrarian alerts when positioning hits 3-year extremes</span>
+          </div>
+          <div id="cot-signals"></div>
+        </div>
+
+        <div class="card">
+          <div style="margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border);">
+            <div id="cot-meta" style="color:var(--text3);font-size:12px;">
+              COT data loads automatically every Friday after 9:30pm UTC (post CFTC release).<br>
+              <span style="font-size:11px;">No API key required — data is sourced directly from the CFTC public API.</span>
+            </div>
+          </div>
+          <div class="card-header">
+            <div class="card-title">Net speculative positioning · CFTC COT data</div>
+            <div class="filter-row" id="cot-filters" style="margin:0">
+              <button class="filter-btn active" onclick="setCOTFilter('all',this)">All</button>
+              <button class="filter-btn" onclick="setCOTFilter('FX',this)">FX</button>
+              <button class="filter-btn" onclick="setCOTFilter('Rates',this)">Rates</button>
+              <button class="filter-btn" onclick="setCOTFilter('Commodities',this)">Commodities</button>
+              <button class="filter-btn" onclick="setCOTFilter('Equity',this)">Equity</button>
+            </div>
+          </div>
+
+          <!-- Legend -->
+          <div style="display:flex;gap:16px;flex-wrap:wrap;padding:0 0 14px;border-bottom:1px solid var(--border);margin-bottom:14px;">
+            <span style="font-size:11px;color:var(--text3);">Positioning scale:</span>
+            <span style="font-size:11px;"><span style="color:var(--red);">█</span> Extreme Long (>75th pctile)</span>
+            <span style="font-size:11px;"><span style="color:var(--amber);">█</span> Crowded Long (55–75th)</span>
+            <span style="font-size:11px;"><span style="color:var(--text3);">█</span> Neutral (45–55th)</span>
+            <span style="font-size:11px;"><span style="color:var(--green);">█</span> Crowded Short (25–45th)</span>
+            <span style="font-size:11px;"><span style="color:var(--purple);">█</span> Extreme Short (<25th)</span>
+          </div>
+
+          <div id="cot-rows"></div>
+        </div>
+      </div>
+
+      <!-- ──────────────────────────────────────────── -->
+      <!-- PAGE: REGIME DETECTOR                        -->
+      <!-- ──────────────────────────────────────────── -->
+      <div class="page" id="page-regime">
+
+        <!-- LIVE FRED DATA PANEL -->
+        <div class="card" style="margin-bottom:16px;">
+          <div id="fred-panel">
+            <div style="font-size:12px;color:var(--text3);padding:20px;text-align:center;">
+              FRED data loads automatically when GitHub Action runs.<br>
+              <span style="font-size:11px;">Add FRED_KEY to GitHub Secrets — see README.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:16px;">
+          <div class="card-header">
+            <div class="card-title">Current macro regime · 4-factor framework</div>
+            <span class="badge badge-accent" style="font-size:11px;">Updated weekly</span>
+          </div>
+          <div class="regime-grid" id="regime-cards"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Asset signal matrix · current regime implications</div>
+          </div>
+          <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--border);">
+            <span style="font-size:11px;display:flex;align-items:center;gap:6px;"><span class="signal-dot sig-strong-long"></span> Strong Long</span>
+            <span style="font-size:11px;display:flex;align-items:center;gap:6px;"><span class="signal-dot sig-mild-long"></span> Mild Long</span>
+            <span style="font-size:11px;display:flex;align-items:center;gap:6px;"><span class="signal-dot sig-neutral"></span> Neutral</span>
+            <span style="font-size:11px;display:flex;align-items:center;gap:6px;"><span class="signal-dot sig-mild-short"></span> Mild Short</span>
+            <span style="font-size:11px;display:flex;align-items:center;gap:6px;"><span class="signal-dot sig-strong-short"></span> Strong Short</span>
+          </div>
+          <div id="regime-matrix"></div>
+          <div style="margin-top:16px;padding:12px 14px;background:var(--bg3);border-radius:8px;border:1px solid var(--border);">
+            <div style="font-size:11px;color:var(--text3);margin-bottom:6px;text-transform:uppercase;letter-spacing:.08em;">Regime summary · current favored trades</div>
+            <div style="font-size:13px;color:var(--text2);line-height:1.8;">
+              Given decelerating growth + sticky inflation + USD bull cycle + risk-off lean:
+              <span style="color:var(--green);font-family:var(--font-mono);"> LONG gold · LONG USD ·</span>
+              <span style="color:var(--red);font-family:var(--font-mono);"> SHORT copper/EM · SHORT risk assets ·</span>
+              <span style="color:var(--accent);font-family:var(--font-mono);"> LONG US duration (as growth hedge)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ──────────────────────────────────────────── -->
+      <!-- PAGE: TRADE JOURNAL                          -->
+      <!-- ──────────────────────────────────────────── -->
+      <div class="page" id="page-journal">
+
+        <div class="grid-4" style="margin-bottom:20px;">
+          <div class="card card-sm">
+            <div class="metric-label">Open positions</div>
+            <div class="metric-val" id="stat-open" style="color:var(--accent)">0</div>
+          </div>
+          <div class="card card-sm">
+            <div class="metric-label">Closed trades</div>
+            <div class="metric-val" id="stat-closed">0</div>
+          </div>
+          <div class="card card-sm">
+            <div class="metric-label">Win rate</div>
+            <div class="metric-val up" id="stat-wr">—</div>
+          </div>
+          <div class="card card-sm">
+            <div class="metric-label">Total P&amp;L</div>
+            <div class="metric-val" id="stat-pnl">—</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Trade log</div>
+          </div>
+          <div id="journal-rows"></div>
+          <button class="add-trade-btn" onclick="openAddTrade()">+ Log new trade</button>
+        </div>
+      </div>
+
+      <!-- ──────────────────────────────────────────── -->
+      <!-- PAGE: THESIS BUILDER                         -->
+      <!-- ──────────────────────────────────────────── -->
+      <div class="page" id="page-thesis">
+        <div class="grid-2" style="gap:20px;align-items:start;">
+          <div>
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">AI-powered thesis builder</div>
+                <span class="badge badge-accent">Claude</span>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Describe your macro view or paste an event</label>
+                <textarea class="form-textarea" id="thesis-input" rows="5" placeholder="e.g. I think the Fed will stay higher for longer than the market expects. CPI is printing sticky. Build me a trade thesis for this view — directional bet, instrument, levels, scenarios."></textarea>
+              </div>
+              <button class="btn-primary" id="thesis-btn" onclick="buildThesis()" style="width:100%;justify-content:center;text-align:center;">Build Thesis ↗</button>
+            </div>
+
+            <div id="thesis-history"></div>
+          </div>
+
+          <div>
+            <div class="card" style="background:var(--bg3);">
+              <div class="card-header">
+                <div class="card-title">Thesis output</div>
+              </div>
+              <div class="thesis-output" id="thesis-output">Your structured thesis will appear here...</div>
+              <div style="font-size:11px;color:var(--text3);margin-top:12px;line-height:1.6;">
+                Powered by Claude Sonnet. Output includes macro thesis, instrument expression, entry/stop/target levels, position sizing, bull/base/bear scenarios, and key risks.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end page-content -->
+  </div><!-- end main -->
+</div><!-- end app -->
+
+<!-- ── ADD TRADE MODAL ── -->
+<div class="modal-overlay" id="trade-modal" onclick="if(event.target===this)closeAddTrade()">
+  <div class="modal">
+    <div class="modal-title">Log new trade</div>
+    <form id="trade-form" onsubmit="event.preventDefault()">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Date *</label>
+          <input class="form-input" type="date" id="t-date" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Instrument *</label>
+          <input class="form-input" type="text" id="t-instrument" placeholder="e.g. EUR/USD, GLD, TLT">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Direction</label>
+          <select class="form-select" id="t-direction">
+            <option>Long</option>
+            <option>Short</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Strategy type</label>
+          <select class="form-select" id="t-strategy">
+            <option>FX Macro</option>
+            <option>Rates</option>
+            <option>Equity Index</option>
+            <option>Commodity</option>
+            <option>Relative Value</option>
+            <option>Event-Driven</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Entry price</label>
+          <input class="form-input" type="text" id="t-entry" placeholder="e.g. 1.0850">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Current / Exit price</label>
+          <input class="form-input" type="text" id="t-current" placeholder="e.g. 1.0920">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Stop loss</label>
+          <input class="form-input" type="text" id="t-stop" placeholder="e.g. 1.0780">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Target</label>
+          <input class="form-input" type="text" id="t-target" placeholder="e.g. 1.1050">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Position size</label>
+          <input class="form-input" type="text" id="t-size" placeholder="e.g. 2% NAV">
+        </div>
+        <div class="form-group">
+          <label class="form-label">P&amp;L (%)</label>
+          <input class="form-input" type="text" id="t-pnl" placeholder="e.g. +1.4 or -0.8">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Status</label>
+        <select class="form-select" id="t-status">
+          <option>Open</option>
+          <option>Closed</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Trade thesis / notes</label>
+        <textarea class="form-textarea" id="t-thesis" placeholder="Why are you in this trade? What's the macro thesis, catalyst, and exit plan?"></textarea>
+      </div>
+    </form>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeAddTrade()">Cancel</button>
+      <button class="btn-primary" onclick="saveTrade()">Save trade</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── TRADE DETAIL MODAL ── -->
+<div class="modal-overlay" id="detail-modal" onclick="if(event.target===this)closeDetailModal()">
+  <div class="modal">
+    <div class="modal-title">Trade detail</div>
+    <div id="detail-content"></div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeDetailModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/live-loader.js"></script>
+</body>
+</html>

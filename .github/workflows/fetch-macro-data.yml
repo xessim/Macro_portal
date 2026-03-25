@@ -1,0 +1,43 @@
+name: Fetch Macro Data Daily
+
+on:
+  schedule:
+    - cron: '0 7 * * 1-5'    # 7am UTC weekdays  (3am ET / pre-market)
+    - cron: '0 13 * * 1-5'   # 1pm UTC weekdays  (9am ET / market open)
+    - cron: '30 21 * * 5'    # 9:30pm UTC Friday (after COT release at 3:30pm ET)
+  workflow_dispatch:           # Manual trigger from Actions tab
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests python-dateutil
+
+      - name: Fetch macro calendar + FRED + FX
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          FRED_KEY:    ${{ secrets.FRED_KEY }}
+        run: python scripts/fetch_data.py
+
+      - name: Fetch COT positioning data (CFTC — no key needed)
+        run: python scripts/fetch_cot.py
+
+      - name: Commit updated data files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "MacroDesk Bot"
+          git add data/
+          git diff --staged --quiet || git commit -m "data: auto-update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
