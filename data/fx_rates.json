@@ -2,12 +2,12 @@
   "base": "USD",
   "date": "2026-03-26",
   "rates": {
-    "EUR/USD": 1.1607,
-    "GBP/USD": 1.3404,
-    "USD/JPY": 158.81,
-    "AUD/USD": 0.698,
-    "USD/CHF": 0.7889,
-    "USD/CAD": 1.377,
-    "USD/CNY": 6.8902
+    "EUR/USD": 1.156,
+    "GBP/USD": 1.3354,
+    "USD/JPY": 159.49,
+    "AUD/USD": 0.6938,
+    "USD/CHF": 0.7922,
+    "USD/CAD": 1.3828,
+    "USD/CNY": 6.9065
   }
 }
