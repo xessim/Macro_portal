@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-08T14:27:37.073524Z",
+  "updated": "2026-04-09T08:20:33.671201Z",
   "source": "CFTC Commitment of Traders \u2014 Legacy Futures Only",
   "note": "Non-commercial (speculative) net positions. Percentile of 3-year range.",
   "report_date": "2026-03-31",
@@ -1179,13 +1179,13 @@
         "USD"
       ],
       "date": "2026-03-31",
-      "net": -494,
-      "longs": 279,
-      "shorts": 773,
-      "oi": 22162,
-      "week_chg": -2825,
+      "net": 862,
+      "longs": 2846,
+      "shorts": 1984,
+      "oi": 67742,
+      "week_chg": -73,
       "pctile": 77,
-      "direction": "short",
+      "direction": "long",
       "crowd": "long",
       "signal": {
         "type": "SHORT",
@@ -1265,22 +1265,6 @@
         },
         {
           "date": "2026-03-31",
-          "net": 862
-        },
-        {
-          "date": "2026-03-31",
-          "net": 913
-        },
-        {
-          "date": "2026-03-31",
-          "net": 606
-        },
-        {
-          "date": "2026-03-31",
-          "net": 4371
-        },
-        {
-          "date": "2026-03-31",
           "net": 1723
         },
         {
@@ -1298,6 +1282,22 @@
         {
           "date": "2026-03-31",
           "net": -494
+        },
+        {
+          "date": "2026-03-31",
+          "net": 4371
+        },
+        {
+          "date": "2026-03-31",
+          "net": 606
+        },
+        {
+          "date": "2026-03-31",
+          "net": 913
+        },
+        {
+          "date": "2026-03-31",
+          "net": 862
         }
       ]
     },
