@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-10T14:09:09.327041Z",
+  "updated": "2026-04-10T21:59:41.220641Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -67,13 +67,9 @@
       "label": "10Y Treasury Yield",
       "value": 4.29,
       "unit": "%",
-      "change": -0.04,
-      "date": "2026-04-08",
+      "change": 0.0,
+      "date": "2026-04-09",
       "history": [
-        {
-          "date": "2026-04-02",
-          "value": 4.31
-        },
         {
           "date": "2026-04-03",
           "value": 4.35
@@ -88,6 +84,10 @@
         },
         {
           "date": "2026-04-08",
+          "value": 4.29
+        },
+        {
+          "date": "2026-04-09",
           "value": 4.29
         }
       ]
