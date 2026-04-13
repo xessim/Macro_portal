@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-10T21:59:50.063188Z",
+  "updated": "2026-04-13T09:01:22.154691Z",
   "source": "CFTC Commitment of Traders \u2014 Legacy Futures Only",
   "note": "Non-commercial (speculative) net positions. Percentile of 3-year range.",
   "report_date": "2026-04-07",
@@ -1168,20 +1168,20 @@
     },
     {
       "asset": "S&P 500",
-      "cftc_name": "E-MINI S&P UTILITIES INDEX - CHICAGO MERCANTILE EXCHANGE",
+      "cftc_name": "E-MINI S&P 400 STOCK INDEX - CHICAGO MERCANTILE EXCHANGE",
       "category": "Equity",
       "tags": [
         "EQUITY",
         "USD"
       ],
       "date": "2026-04-07",
-      "net": 3384,
-      "longs": 5368,
+      "net": -912,
+      "longs": 1072,
       "shorts": 1984,
-      "oi": 40432,
-      "week_chg": -1238,
-      "pctile": 78,
-      "direction": "long",
+      "oi": 66125,
+      "week_chg": -1774,
+      "pctile": 76,
+      "direction": "short",
       "crowd": "long",
       "signal": {
         "type": "SHORT",
@@ -1253,6 +1253,14 @@
         },
         {
           "date": "2026-04-07",
+          "net": 3384
+        },
+        {
+          "date": "2026-04-07",
+          "net": 723
+        },
+        {
+          "date": "2026-04-07",
           "net": 2240
         },
         {
@@ -1286,14 +1294,6 @@
         {
           "date": "2026-04-07",
           "net": -912
-        },
-        {
-          "date": "2026-04-07",
-          "net": 723
-        },
-        {
-          "date": "2026-04-07",
-          "net": 3384
         }
       ]
     },
