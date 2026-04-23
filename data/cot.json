@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-22T14:28:51.916226Z",
+  "updated": "2026-04-23T08:53:02.573606Z",
   "source": "CFTC Commitment of Traders \u2014 Legacy Futures Only",
   "note": "Non-commercial (speculative) net positions. Percentile of 3-year range.",
   "report_date": "2026-04-14",
@@ -1686,6 +1686,132 @@
       ]
     },
     {
+      "asset": "Gold",
+      "cftc_name": "MICRO GOLD - COMMODITY EXCHANGE INC.",
+      "category": "Commodities",
+      "tags": [
+        "COMMODITY"
+      ],
+      "date": "2026-04-14",
+      "net": 162526,
+      "longs": 210009,
+      "shorts": 47483,
+      "oi": 362274,
+      "week_chg": 6221,
+      "pctile": 59,
+      "direction": "long",
+      "crowd": "neutral",
+      "signal": null,
+      "net_min": -40665,
+      "net_max": 302508,
+      "history": [
+        {
+          "date": "2026-01-20",
+          "net": -4553
+        },
+        {
+          "date": "2026-01-27",
+          "net": -14711
+        },
+        {
+          "date": "2026-01-27",
+          "net": 205396
+        },
+        {
+          "date": "2026-01-27",
+          "net": -3741
+        },
+        {
+          "date": "2026-02-03",
+          "net": -13892
+        },
+        {
+          "date": "2026-02-03",
+          "net": 165604
+        },
+        {
+          "date": "2026-02-10",
+          "net": 160012
+        },
+        {
+          "date": "2026-02-10",
+          "net": -14726
+        },
+        {
+          "date": "2026-02-17",
+          "net": 159915
+        },
+        {
+          "date": "2026-02-17",
+          "net": -17489
+        },
+        {
+          "date": "2026-02-24",
+          "net": 159177
+        },
+        {
+          "date": "2026-02-24",
+          "net": -21078
+        },
+        {
+          "date": "2026-03-03",
+          "net": -20752
+        },
+        {
+          "date": "2026-03-03",
+          "net": 160145
+        },
+        {
+          "date": "2026-03-10",
+          "net": -21307
+        },
+        {
+          "date": "2026-03-10",
+          "net": 163132
+        },
+        {
+          "date": "2026-03-17",
+          "net": 159869
+        },
+        {
+          "date": "2026-03-17",
+          "net": -24829
+        },
+        {
+          "date": "2026-03-24",
+          "net": 168327
+        },
+        {
+          "date": "2026-03-24",
+          "net": -16603
+        },
+        {
+          "date": "2026-03-31",
+          "net": 163202
+        },
+        {
+          "date": "2026-03-31",
+          "net": -13091
+        },
+        {
+          "date": "2026-04-07",
+          "net": 156305
+        },
+        {
+          "date": "2026-04-07",
+          "net": -13177
+        },
+        {
+          "date": "2026-04-14",
+          "net": -13439
+        },
+        {
+          "date": "2026-04-14",
+          "net": 162526
+        }
+      ]
+    },
+    {
       "asset": "Silver",
       "cftc_name": "SILVER - COMMODITY EXCHANGE INC.",
       "category": "Commodities",
@@ -2988,14 +3114,13 @@
     }
   ],
   "failed": [
-    "30Y T-Bond",
-    "Gold"
+    "30Y T-Bond"
   ],
   "summary": {
-    "total": 17,
+    "total": 18,
     "extreme_long": 4,
     "crowded_long": 3,
-    "neutral": 4,
+    "neutral": 5,
     "crowded_short": 4,
     "extreme_short": 2
   }
