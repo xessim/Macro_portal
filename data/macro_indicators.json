@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24T09:00:08.382006Z",
+  "updated": "2026-04-24T14:27:20.332546Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -182,6 +182,36 @@
         }
       ]
     },
+    "CPILFESL": {
+      "id": "CPILFESL",
+      "label": "Core CPI YoY",
+      "value": 334.2,
+      "unit": "%",
+      "change": 0.7,
+      "date": "2026-03-01",
+      "history": [
+        {
+          "date": "2025-11-01",
+          "value": 331.0
+        },
+        {
+          "date": "2025-12-01",
+          "value": 331.8
+        },
+        {
+          "date": "2026-01-01",
+          "value": 332.8
+        },
+        {
+          "date": "2026-02-01",
+          "value": 333.5
+        },
+        {
+          "date": "2026-03-01",
+          "value": 334.2
+        }
+      ]
+    },
     "PCEPILFE": {
       "id": "PCEPILFE",
       "label": "Core PCE YoY",
@@ -269,6 +299,36 @@
         {
           "date": "2025-10-01",
           "value": 0.5
+        }
+      ]
+    },
+    "PAYEMS": {
+      "id": "PAYEMS",
+      "label": "Nonfarm Payrolls MoM",
+      "value": 158637.0,
+      "unit": "K",
+      "change": 178.0,
+      "date": "2026-03-01",
+      "history": [
+        {
+          "date": "2025-11-01",
+          "value": 158449.0
+        },
+        {
+          "date": "2025-12-01",
+          "value": 158432.0
+        },
+        {
+          "date": "2026-01-01",
+          "value": 158592.0
+        },
+        {
+          "date": "2026-02-01",
+          "value": 158459.0
+        },
+        {
+          "date": "2026-03-01",
+          "value": 158637.0
         }
       ]
     }
