@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T15:06:23.396055Z",
+  "updated": "2026-04-24T09:00:08.382006Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -35,15 +35,11 @@
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 3.78,
+      "value": 3.79,
       "unit": "%",
-      "change": 0.06,
-      "date": "2026-04-21",
+      "change": 0.01,
+      "date": "2026-04-22",
       "history": [
-        {
-          "date": "2026-04-15",
-          "value": 3.76
-        },
         {
           "date": "2026-04-16",
           "value": 3.78
@@ -59,6 +55,10 @@
         {
           "date": "2026-04-21",
           "value": 3.78
+        },
+        {
+          "date": "2026-04-22",
+          "value": 3.79
         }
       ]
     },
@@ -67,13 +67,9 @@
       "label": "10Y Treasury Yield",
       "value": 4.3,
       "unit": "%",
-      "change": 0.04,
-      "date": "2026-04-21",
+      "change": 0.0,
+      "date": "2026-04-22",
       "history": [
-        {
-          "date": "2026-04-15",
-          "value": 4.29
-        },
         {
           "date": "2026-04-16",
           "value": 4.32
@@ -89,21 +85,21 @@
         {
           "date": "2026-04-21",
           "value": 4.3
+        },
+        {
+          "date": "2026-04-22",
+          "value": 4.3
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 4.89,
+      "value": 4.9,
       "unit": "%",
       "change": 0.01,
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "history": [
-        {
-          "date": "2026-04-15",
-          "value": 4.89
-        },
         {
           "date": "2026-04-16",
           "value": 4.93
@@ -119,6 +115,10 @@
         {
           "date": "2026-04-21",
           "value": 4.89
+        },
+        {
+          "date": "2026-04-22",
+          "value": 4.9
         }
       ]
     },
@@ -128,12 +128,8 @@
       "value": 51.0,
       "unit": "bps",
       "change": null,
-      "date": "2026-04-22",
+      "date": "2026-04-23",
       "history": [
-        {
-          "date": "2026-04-16",
-          "value": 1.0
-        },
         {
           "date": "2026-04-17",
           "value": 1.0
@@ -149,21 +145,21 @@
         {
           "date": "2026-04-22",
           "value": 1.0
+        },
+        {
+          "date": "2026-04-23",
+          "value": 1.0
         }
       ]
     },
     "T10YIE": {
       "id": "T10YIE",
       "label": "10Y Breakeven Inflation",
-      "value": 2.38,
+      "value": 2.42,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-04-22",
+      "change": 0.04,
+      "date": "2026-04-23",
       "history": [
-        {
-          "date": "2026-04-16",
-          "value": 2.39
-        },
         {
           "date": "2026-04-17",
           "value": 2.36
@@ -179,36 +175,10 @@
         {
           "date": "2026-04-22",
           "value": 2.38
-        }
-      ]
-    },
-    "CPILFESL": {
-      "id": "CPILFESL",
-      "label": "Core CPI YoY",
-      "value": 334.2,
-      "unit": "%",
-      "change": 0.7,
-      "date": "2026-03-01",
-      "history": [
-        {
-          "date": "2025-11-01",
-          "value": 331.0
         },
         {
-          "date": "2025-12-01",
-          "value": 331.8
-        },
-        {
-          "date": "2026-01-01",
-          "value": 332.8
-        },
-        {
-          "date": "2026-02-01",
-          "value": 333.5
-        },
-        {
-          "date": "2026-03-01",
-          "value": 334.2
+          "date": "2026-04-23",
+          "value": 2.42
         }
       ]
     },
@@ -299,36 +269,6 @@
         {
           "date": "2025-10-01",
           "value": 0.5
-        }
-      ]
-    },
-    "PAYEMS": {
-      "id": "PAYEMS",
-      "label": "Nonfarm Payrolls MoM",
-      "value": 158637.0,
-      "unit": "K",
-      "change": 178.0,
-      "date": "2026-03-01",
-      "history": [
-        {
-          "date": "2025-11-01",
-          "value": 158449.0
-        },
-        {
-          "date": "2025-12-01",
-          "value": 158432.0
-        },
-        {
-          "date": "2026-01-01",
-          "value": 158592.0
-        },
-        {
-          "date": "2026-02-01",
-          "value": 158459.0
-        },
-        {
-          "date": "2026-03-01",
-          "value": 158637.0
         }
       ]
     }
