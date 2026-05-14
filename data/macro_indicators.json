@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T15:38:03.914236Z",
+  "updated": "2026-05-14T09:34:54.665920Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -35,15 +35,11 @@
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 3.95,
+      "value": 4.0,
       "unit": "%",
       "change": 0.05,
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "history": [
-        {
-          "date": "2026-05-05",
-          "value": 3.93
-        },
         {
           "date": "2026-05-06",
           "value": 3.87
@@ -59,21 +55,21 @@
         {
           "date": "2026-05-11",
           "value": 3.95
+        },
+        {
+          "date": "2026-05-12",
+          "value": 4.0
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 4.42,
+      "value": 4.46,
       "unit": "%",
       "change": 0.04,
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "history": [
-        {
-          "date": "2026-05-05",
-          "value": 4.43
-        },
         {
           "date": "2026-05-06",
           "value": 4.36
@@ -89,21 +85,21 @@
         {
           "date": "2026-05-11",
           "value": 4.42
+        },
+        {
+          "date": "2026-05-12",
+          "value": 4.46
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 4.98,
+      "value": 5.03,
       "unit": "%",
-      "change": 0.03,
-      "date": "2026-05-11",
+      "change": 0.05,
+      "date": "2026-05-12",
       "history": [
-        {
-          "date": "2026-05-05",
-          "value": 4.98
-        },
         {
           "date": "2026-05-06",
           "value": 4.94
@@ -119,21 +115,21 @@
         {
           "date": "2026-05-11",
           "value": 4.98
+        },
+        {
+          "date": "2026-05-12",
+          "value": 5.03
         }
       ]
     },
     "T10Y2Y": {
       "id": "T10Y2Y",
       "label": "2s10s Spread",
-      "value": 46.0,
+      "value": 48.0,
       "unit": "bps",
       "change": null,
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "history": [
-        {
-          "date": "2026-05-06",
-          "value": 0.0
-        },
         {
           "date": "2026-05-07",
           "value": 0.0
@@ -149,6 +145,10 @@
         {
           "date": "2026-05-12",
           "value": 0.0
+        },
+        {
+          "date": "2026-05-13",
+          "value": 0.0
         }
       ]
     },
@@ -158,12 +158,8 @@
       "value": 2.47,
       "unit": "%",
       "change": 0.0,
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "history": [
-        {
-          "date": "2026-05-06",
-          "value": 2.42
-        },
         {
           "date": "2026-05-07",
           "value": 2.45
@@ -178,6 +174,10 @@
         },
         {
           "date": "2026-05-12",
+          "value": 2.47
+        },
+        {
+          "date": "2026-05-13",
           "value": 2.47
         }
       ]
