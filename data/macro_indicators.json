@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28T10:56:27.955920Z",
+  "updated": "2026-05-28T16:46:11.126460Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -195,15 +195,11 @@
     "PCEPILFE": {
       "id": "PCEPILFE",
       "label": "Core PCE YoY",
-      "value": 129.3,
+      "value": 129.6,
       "unit": "%",
-      "change": 0.4,
-      "date": "2026-03-01",
+      "change": 0.3,
+      "date": "2026-04-01",
       "history": [
-        {
-          "date": "2025-11-01",
-          "value": 127.5
-        },
         {
           "date": "2025-12-01",
           "value": 127.9
@@ -219,6 +215,10 @@
         {
           "date": "2026-03-01",
           "value": 129.3
+        },
+        {
+          "date": "2026-04-01",
+          "value": 129.6
         }
       ]
     },
@@ -255,9 +255,9 @@
     "A191RL1Q225SBEA": {
       "id": "A191RL1Q225SBEA",
       "label": "Real GDP Growth QoQ",
-      "value": 2.0,
+      "value": 1.6,
       "unit": "%",
-      "change": 1.5,
+      "change": 1.1,
       "date": "2026-01-01",
       "history": [
         {
@@ -278,7 +278,7 @@
         },
         {
           "date": "2026-01-01",
-          "value": 2.0
+          "value": 1.6
         }
       ]
     },
