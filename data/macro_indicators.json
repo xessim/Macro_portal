@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T16:33:14.006172Z",
+  "updated": "2026-05-29T22:47:00.969121Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -35,15 +35,11 @@
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 4.0,
+      "value": 3.99,
       "unit": "%",
       "change": -0.01,
-      "date": "2026-05-27",
+      "date": "2026-05-28",
       "history": [
-        {
-          "date": "2026-05-21",
-          "value": 4.08
-        },
         {
           "date": "2026-05-22",
           "value": 4.13
@@ -55,21 +51,21 @@
         {
           "date": "2026-05-27",
           "value": 4.0
+        },
+        {
+          "date": "2026-05-28",
+          "value": 3.99
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 4.48,
+      "value": 4.45,
       "unit": "%",
-      "change": -0.02,
-      "date": "2026-05-27",
+      "change": -0.03,
+      "date": "2026-05-28",
       "history": [
-        {
-          "date": "2026-05-21",
-          "value": 4.57
-        },
         {
           "date": "2026-05-22",
           "value": 4.56
@@ -81,21 +77,21 @@
         {
           "date": "2026-05-27",
           "value": 4.48
+        },
+        {
+          "date": "2026-05-28",
+          "value": 4.45
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 5.01,
+      "value": 4.98,
       "unit": "%",
-      "change": -0.02,
-      "date": "2026-05-27",
+      "change": -0.03,
+      "date": "2026-05-28",
       "history": [
-        {
-          "date": "2026-05-21",
-          "value": 5.1
-        },
         {
           "date": "2026-05-22",
           "value": 5.07
@@ -107,6 +103,10 @@
         {
           "date": "2026-05-27",
           "value": 5.01
+        },
+        {
+          "date": "2026-05-28",
+          "value": 4.98
         }
       ]
     },
