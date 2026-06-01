@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T22:47:00.969121Z",
+  "updated": "2026-06-01T12:36:41.660637Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -113,15 +113,11 @@
     "T10Y2Y": {
       "id": "T10Y2Y",
       "label": "2s10s Spread",
-      "value": 46.0,
+      "value": 47.0,
       "unit": "bps",
       "change": null,
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "history": [
-        {
-          "date": "2026-05-22",
-          "value": 0.0
-        },
         {
           "date": "2026-05-26",
           "value": 0.0
@@ -132,6 +128,10 @@
         },
         {
           "date": "2026-05-28",
+          "value": 0.0
+        },
+        {
+          "date": "2026-05-29",
           "value": 0.0
         }
       ]
@@ -139,15 +139,11 @@
     "T10YIE": {
       "id": "T10YIE",
       "label": "10Y Breakeven Inflation",
-      "value": 2.39,
+      "value": 2.38,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-05-28",
+      "change": -0.01,
+      "date": "2026-05-29",
       "history": [
-        {
-          "date": "2026-05-22",
-          "value": 2.4
-        },
         {
           "date": "2026-05-26",
           "value": 2.4
@@ -159,6 +155,10 @@
         {
           "date": "2026-05-28",
           "value": 2.39
+        },
+        {
+          "date": "2026-05-29",
+          "value": 2.38
         }
       ]
     },
