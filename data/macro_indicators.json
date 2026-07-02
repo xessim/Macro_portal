@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T10:09:37.632881Z",
+  "updated": "2026-07-02T15:03:02.825144Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -245,15 +245,11 @@
     "UNRATE": {
       "id": "UNRATE",
       "label": "Unemployment Rate",
-      "value": 4.3,
+      "value": 4.2,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-05-01",
+      "change": -0.1,
+      "date": "2026-06-01",
       "history": [
-        {
-          "date": "2026-01-01",
-          "value": 4.3
-        },
         {
           "date": "2026-02-01",
           "value": 4.4
@@ -269,6 +265,10 @@
         {
           "date": "2026-05-01",
           "value": 4.3
+        },
+        {
+          "date": "2026-06-01",
+          "value": 4.2
         }
       ]
     },
@@ -305,15 +305,11 @@
     "PAYEMS": {
       "id": "PAYEMS",
       "label": "Nonfarm Payrolls MoM",
-      "value": 159001.0,
+      "value": 158984.0,
       "unit": "K",
-      "change": 172.0,
-      "date": "2026-05-01",
+      "change": 57.0,
+      "date": "2026-06-01",
       "history": [
-        {
-          "date": "2026-01-01",
-          "value": 158592.0
-        },
         {
           "date": "2026-02-01",
           "value": 158436.0
@@ -324,11 +320,15 @@
         },
         {
           "date": "2026-04-01",
-          "value": 158829.0
+          "value": 158798.0
         },
         {
           "date": "2026-05-01",
-          "value": 159001.0
+          "value": 158927.0
+        },
+        {
+          "date": "2026-06-01",
+          "value": 158984.0
         }
       ]
     }
