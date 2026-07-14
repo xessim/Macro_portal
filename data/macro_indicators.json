@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T09:04:13.286969Z",
+  "updated": "2026-07-14T14:40:52.491642Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -187,13 +187,9 @@
       "label": "Core CPI YoY",
       "value": 336.1,
       "unit": "%",
-      "change": 0.7,
-      "date": "2026-05-01",
+      "change": -0.1,
+      "date": "2026-06-01",
       "history": [
-        {
-          "date": "2026-01-01",
-          "value": 332.8
-        },
         {
           "date": "2026-02-01",
           "value": 333.5
@@ -208,6 +204,10 @@
         },
         {
           "date": "2026-05-01",
+          "value": 336.1
+        },
+        {
+          "date": "2026-06-01",
           "value": 336.1
         }
       ]
