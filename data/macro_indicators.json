@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:53:11.929376Z",
+  "updated": "2026-07-22T09:25:34.268287Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -35,15 +35,11 @@
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 4.18,
+      "value": 4.21,
       "unit": "%",
-      "change": 0.02,
-      "date": "2026-07-17",
+      "change": 0.03,
+      "date": "2026-07-20",
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 4.26
-        },
         {
           "date": "2026-07-14",
           "value": 4.18
@@ -59,21 +55,21 @@
         {
           "date": "2026-07-17",
           "value": 4.18
+        },
+        {
+          "date": "2026-07-20",
+          "value": 4.21
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 4.55,
+      "value": 4.6,
       "unit": "%",
-      "change": -0.02,
-      "date": "2026-07-17",
+      "change": 0.05,
+      "date": "2026-07-20",
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 4.62
-        },
         {
           "date": "2026-07-14",
           "value": 4.58
@@ -89,21 +85,21 @@
         {
           "date": "2026-07-17",
           "value": 4.55
+        },
+        {
+          "date": "2026-07-20",
+          "value": 4.6
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 5.06,
+      "value": 5.11,
       "unit": "%",
-      "change": -0.03,
-      "date": "2026-07-17",
+      "change": 0.05,
+      "date": "2026-07-20",
       "history": [
-        {
-          "date": "2026-07-13",
-          "value": 5.1
-        },
         {
           "date": "2026-07-14",
           "value": 5.08
@@ -119,21 +115,21 @@
         {
           "date": "2026-07-17",
           "value": 5.06
+        },
+        {
+          "date": "2026-07-20",
+          "value": 5.11
         }
       ]
     },
     "T10Y2Y": {
       "id": "T10Y2Y",
       "label": "2s10s Spread",
-      "value": 39.0,
+      "value": 37.0,
       "unit": "bps",
       "change": null,
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 0.0
-        },
         {
           "date": "2026-07-15",
           "value": 0.0
@@ -149,21 +145,21 @@
         {
           "date": "2026-07-20",
           "value": 0.0
+        },
+        {
+          "date": "2026-07-21",
+          "value": 0.0
         }
       ]
     },
     "T10YIE": {
       "id": "T10YIE",
       "label": "10Y Breakeven Inflation",
-      "value": 2.25,
+      "value": 2.26,
       "unit": "%",
       "change": 0.01,
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "history": [
-        {
-          "date": "2026-07-14",
-          "value": 2.25
-        },
         {
           "date": "2026-07-15",
           "value": 2.23
@@ -179,6 +175,10 @@
         {
           "date": "2026-07-20",
           "value": 2.25
+        },
+        {
+          "date": "2026-07-21",
+          "value": 2.26
         }
       ]
     },
