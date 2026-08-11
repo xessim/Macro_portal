@@ -1,13 +1,14 @@
 {
   "base": "USD",
-  "date": "2026-08-11",
+  "date": "2026-08-10",
+  "updated": "2026-08-11T14:10:03.878880Z",
   "rates": {
-    "EUR/USD": 1.1546,
-    "GBP/USD": 1.351,
-    "USD/JPY": 159.19,
-    "AUD/USD": 0.7058,
-    "USD/CHF": 0.8099,
-    "USD/CAD": 1.3934,
-    "USD/CNY": 6.745
+    "EUR/USD": 1.1555,
+    "GBP/USD": 1.3504,
+    "USD/JPY": 158.64,
+    "AUD/USD": 0.7063,
+    "USD/CHF": 0.8083,
+    "USD/CAD": 1.394,
+    "USD/CNY": 6.7444
   }
 }
