@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T08:16:51.197609Z",
+  "updated": "2026-08-12T14:11:02.321881Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -185,15 +185,11 @@
     "CPILFESL": {
       "id": "CPILFESL",
       "label": "Core CPI YoY",
-      "value": 336.1,
+      "value": 336.8,
       "unit": "%",
-      "change": -0.1,
-      "date": "2026-06-01",
+      "change": 0.7,
+      "date": "2026-07-01",
       "history": [
-        {
-          "date": "2026-02-01",
-          "value": 333.5
-        },
         {
           "date": "2026-03-01",
           "value": 334.2
@@ -209,6 +205,10 @@
         {
           "date": "2026-06-01",
           "value": 336.1
+        },
+        {
+          "date": "2026-07-01",
+          "value": 336.8
         }
       ]
     },
