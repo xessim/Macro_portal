@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-18T13:33:42.376868Z",
+  "updated": "2026-08-19T07:37:19.570027Z",
   "source": "Finnhub Economic Calendar API",
-  "from": "2026-08-18",
-  "to": "2026-09-01",
+  "from": "2026-08-19",
+  "to": "2026-09-02",
   "events": [
     {
       "id": "placeholder-1",
-      "time": "2026-08-18T13:30:00",
+      "time": "2026-08-19T13:30:00",
       "name": "Add your FINNHUB_KEY to GitHub Secrets",
       "source": "MacroDesk Setup",
       "impact": "high",
