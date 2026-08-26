@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T07:45:14.733169Z",
+  "updated": "2026-08-26T13:43:25.646412Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -215,15 +215,11 @@
     "PCEPILFE": {
       "id": "PCEPILFE",
       "label": "Core PCE YoY",
-      "value": 130.3,
+      "value": 130.7,
       "unit": "%",
-      "change": 0.2,
-      "date": "2026-06-01",
+      "change": 0.3,
+      "date": "2026-07-01",
       "history": [
-        {
-          "date": "2026-02-01",
-          "value": 129.0
-        },
         {
           "date": "2026-03-01",
           "value": 129.3
@@ -239,6 +235,10 @@
         {
           "date": "2026-06-01",
           "value": 130.3
+        },
+        {
+          "date": "2026-07-01",
+          "value": 130.7
         }
       ]
     },
