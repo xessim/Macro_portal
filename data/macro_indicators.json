@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T13:43:25.646412Z",
+  "updated": "2026-08-27T18:06:38.545647Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -35,15 +35,11 @@
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 4.24,
+      "value": 4.17,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-08-24",
+      "change": -0.07,
+      "date": "2026-08-25",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 4.19
-        },
         {
           "date": "2026-08-19",
           "value": 4.19
@@ -59,21 +55,21 @@
         {
           "date": "2026-08-24",
           "value": 4.24
+        },
+        {
+          "date": "2026-08-25",
+          "value": 4.17
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 4.7,
+      "value": 4.64,
       "unit": "%",
-      "change": -0.04,
-      "date": "2026-08-24",
+      "change": -0.06,
+      "date": "2026-08-25",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 4.71
-        },
         {
           "date": "2026-08-19",
           "value": 4.65
@@ -89,21 +85,21 @@
         {
           "date": "2026-08-24",
           "value": 4.7
+        },
+        {
+          "date": "2026-08-25",
+          "value": 4.64
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 5.23,
+      "value": 5.17,
       "unit": "%",
-      "change": -0.04,
-      "date": "2026-08-24",
+      "change": -0.06,
+      "date": "2026-08-25",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 5.28
-        },
         {
           "date": "2026-08-19",
           "value": 5.19
@@ -119,6 +115,10 @@
         {
           "date": "2026-08-24",
           "value": 5.23
+        },
+        {
+          "date": "2026-08-25",
+          "value": 5.17
         }
       ]
     },
@@ -128,12 +128,8 @@
       "value": 47.0,
       "unit": "bps",
       "change": null,
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 0.0
-        },
         {
           "date": "2026-08-20",
           "value": 0.0
@@ -149,6 +145,10 @@
         {
           "date": "2026-08-25",
           "value": 0.0
+        },
+        {
+          "date": "2026-08-26",
+          "value": 0.0
         }
       ]
     },
@@ -158,12 +158,8 @@
       "value": 2.32,
       "unit": "%",
       "change": 0.0,
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 2.3
-        },
         {
           "date": "2026-08-20",
           "value": 2.34
@@ -178,6 +174,10 @@
         },
         {
           "date": "2026-08-25",
+          "value": 2.32
+        },
+        {
+          "date": "2026-08-26",
           "value": 2.32
         }
       ]
