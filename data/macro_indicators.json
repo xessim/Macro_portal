@@ -1,19 +1,15 @@
 {
-  "updated": "2026-10-01T18:36:18.804040Z",
+  "updated": "2026-10-02T13:37:05.604382Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
       "id": "FEDFUNDS",
       "label": "Fed Funds Rate",
-      "value": 3.63,
+      "value": 3.75,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-08-01",
+      "change": 0.12,
+      "date": "2026-09-01",
       "history": [
-        {
-          "date": "2026-04-01",
-          "value": 3.64
-        },
         {
           "date": "2026-05-01",
           "value": 3.63
@@ -29,21 +25,21 @@
         {
           "date": "2026-08-01",
           "value": 3.63
+        },
+        {
+          "date": "2026-09-01",
+          "value": 3.75
         }
       ]
     },
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 4.89,
+      "value": 4.88,
       "unit": "%",
-      "change": -0.03,
-      "date": "2026-09-29",
+      "change": -0.01,
+      "date": "2026-09-30",
       "history": [
-        {
-          "date": "2026-09-23",
-          "value": 4.85
-        },
         {
           "date": "2026-09-24",
           "value": 4.87
@@ -59,21 +55,21 @@
         {
           "date": "2026-09-29",
           "value": 4.89
+        },
+        {
+          "date": "2026-09-30",
+          "value": 4.88
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 5.26,
+      "value": 5.29,
       "unit": "%",
-      "change": 0.02,
-      "date": "2026-09-29",
+      "change": 0.03,
+      "date": "2026-09-30",
       "history": [
-        {
-          "date": "2026-09-23",
-          "value": 5.11
-        },
         {
           "date": "2026-09-24",
           "value": 5.18
@@ -89,21 +85,21 @@
         {
           "date": "2026-09-29",
           "value": 5.26
+        },
+        {
+          "date": "2026-09-30",
+          "value": 5.29
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 5.59,
+      "value": 5.64,
       "unit": "%",
-      "change": 0.03,
-      "date": "2026-09-29",
+      "change": 0.05,
+      "date": "2026-09-30",
       "history": [
-        {
-          "date": "2026-09-23",
-          "value": 5.4
-        },
         {
           "date": "2026-09-24",
           "value": 5.47
@@ -119,21 +115,21 @@
         {
           "date": "2026-09-29",
           "value": 5.59
+        },
+        {
+          "date": "2026-09-30",
+          "value": 5.64
         }
       ]
     },
     "T10Y2Y": {
       "id": "T10Y2Y",
       "label": "2s10s Spread",
-      "value": 41.0,
+      "value": 46.0,
       "unit": "bps",
       "change": null,
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "history": [
-        {
-          "date": "2026-09-24",
-          "value": 0.0
-        },
         {
           "date": "2026-09-25",
           "value": 0.0
@@ -149,6 +145,10 @@
         {
           "date": "2026-09-30",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-01",
+          "value": 0.0
         }
       ]
     },
@@ -157,13 +157,9 @@
       "label": "10Y Breakeven Inflation",
       "value": 2.36,
       "unit": "%",
-      "change": 0.01,
-      "date": "2026-09-30",
+      "change": 0.0,
+      "date": "2026-10-01",
       "history": [
-        {
-          "date": "2026-09-24",
-          "value": 2.33
-        },
         {
           "date": "2026-09-25",
           "value": 2.34
@@ -178,6 +174,10 @@
         },
         {
           "date": "2026-09-30",
+          "value": 2.36
+        },
+        {
+          "date": "2026-10-01",
           "value": 2.36
         }
       ]
@@ -245,15 +245,11 @@
     "UNRATE": {
       "id": "UNRATE",
       "label": "Unemployment Rate",
-      "value": 4.1,
+      "value": 4.2,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-08-01",
+      "change": 0.1,
+      "date": "2026-09-01",
       "history": [
-        {
-          "date": "2026-04-01",
-          "value": 4.3
-        },
         {
           "date": "2026-05-01",
           "value": 4.3
@@ -269,6 +265,10 @@
         {
           "date": "2026-08-01",
           "value": 4.1
+        },
+        {
+          "date": "2026-09-01",
+          "value": 4.2
         }
       ]
     },
@@ -305,15 +305,11 @@
     "PAYEMS": {
       "id": "PAYEMS",
       "label": "Nonfarm Payrolls MoM",
-      "value": 159075.0,
+      "value": 159044.0,
       "unit": "K",
-      "change": 162.0,
-      "date": "2026-08-01",
+      "change": 29.0,
+      "date": "2026-09-01",
       "history": [
-        {
-          "date": "2026-04-01",
-          "value": 158798.0
-        },
         {
           "date": "2026-05-01",
           "value": 158861.0
@@ -324,11 +320,15 @@
         },
         {
           "date": "2026-07-01",
-          "value": 158913.0
+          "value": 158882.0
         },
         {
           "date": "2026-08-01",
-          "value": 159075.0
+          "value": 159015.0
+        },
+        {
+          "date": "2026-09-01",
+          "value": 159044.0
         }
       ]
     }
