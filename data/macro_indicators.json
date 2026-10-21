@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T17:36:11.043386Z",
+  "updated": "2026-10-21T12:44:05.390939Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -35,10 +35,10 @@
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 4.74,
+      "value": 4.77,
       "unit": "%",
-      "change": -0.03,
-      "date": "2026-10-16",
+      "change": 0.03,
+      "date": "2026-10-19",
       "history": [
         {
           "date": "2026-10-13",
@@ -55,16 +55,20 @@
         {
           "date": "2026-10-16",
           "value": 4.74
+        },
+        {
+          "date": "2026-10-19",
+          "value": 4.77
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 5.09,
+      "value": 5.15,
       "unit": "%",
-      "change": -0.01,
-      "date": "2026-10-16",
+      "change": 0.06,
+      "date": "2026-10-19",
       "history": [
         {
           "date": "2026-10-13",
@@ -81,16 +85,20 @@
         {
           "date": "2026-10-16",
           "value": 5.09
+        },
+        {
+          "date": "2026-10-19",
+          "value": 5.15
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 5.43,
+      "value": 5.48,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-10-16",
+      "change": 0.05,
+      "date": "2026-10-19",
       "history": [
         {
           "date": "2026-10-13",
@@ -107,21 +115,21 @@
         {
           "date": "2026-10-16",
           "value": 5.43
+        },
+        {
+          "date": "2026-10-19",
+          "value": 5.48
         }
       ]
     },
     "T10Y2Y": {
       "id": "T10Y2Y",
       "label": "2s10s Spread",
-      "value": 38.0,
+      "value": 33.0,
       "unit": "bps",
       "change": null,
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "history": [
-        {
-          "date": "2026-10-13",
-          "value": 0.0
-        },
         {
           "date": "2026-10-14",
           "value": 0.0
@@ -137,6 +145,10 @@
         {
           "date": "2026-10-19",
           "value": 0.0
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0.0
         }
       ]
     },
@@ -146,12 +158,8 @@
       "value": 2.35,
       "unit": "%",
       "change": 0.0,
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "history": [
-        {
-          "date": "2026-10-13",
-          "value": 2.33
-        },
         {
           "date": "2026-10-14",
           "value": 2.35
@@ -166,6 +174,10 @@
         },
         {
           "date": "2026-10-19",
+          "value": 2.35
+        },
+        {
+          "date": "2026-10-20",
           "value": 2.35
         }
       ]
