@@ -1,19 +1,15 @@
 {
-  "updated": "2026-11-02T16:50:53.353431Z",
+  "updated": "2026-11-02T21:58:57.583267Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
       "id": "FEDFUNDS",
       "label": "Fed Funds Rate",
-      "value": 3.75,
+      "value": 3.88,
       "unit": "%",
-      "change": 0.12,
-      "date": "2026-09-01",
+      "change": 0.13,
+      "date": "2026-10-01",
       "history": [
-        {
-          "date": "2026-05-01",
-          "value": 3.63
-        },
         {
           "date": "2026-06-01",
           "value": 3.63
@@ -29,21 +25,21 @@
         {
           "date": "2026-09-01",
           "value": 3.75
+        },
+        {
+          "date": "2026-10-01",
+          "value": 3.88
         }
       ]
     },
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 4.61,
+      "value": 4.56,
       "unit": "%",
-      "change": -0.06,
-      "date": "2026-10-29",
+      "change": -0.05,
+      "date": "2026-10-30",
       "history": [
-        {
-          "date": "2026-10-23",
-          "value": 4.69
-        },
         {
           "date": "2026-10-26",
           "value": 4.68
@@ -59,21 +55,21 @@
         {
           "date": "2026-10-29",
           "value": 4.61
+        },
+        {
+          "date": "2026-10-30",
+          "value": 4.56
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 4.98,
+      "value": 4.94,
       "unit": "%",
-      "change": -0.07,
-      "date": "2026-10-29",
+      "change": -0.04,
+      "date": "2026-10-30",
       "history": [
-        {
-          "date": "2026-10-23",
-          "value": 5.0
-        },
         {
           "date": "2026-10-26",
           "value": 5.0
@@ -89,21 +85,21 @@
         {
           "date": "2026-10-29",
           "value": 4.98
+        },
+        {
+          "date": "2026-10-30",
+          "value": 4.94
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 5.32,
+      "value": 5.31,
       "unit": "%",
-      "change": -0.05,
-      "date": "2026-10-29",
+      "change": -0.01,
+      "date": "2026-10-30",
       "history": [
-        {
-          "date": "2026-10-23",
-          "value": 5.33
-        },
         {
           "date": "2026-10-26",
           "value": 5.31
@@ -119,6 +115,10 @@
         {
           "date": "2026-10-29",
           "value": 5.32
+        },
+        {
+          "date": "2026-10-30",
+          "value": 5.31
         }
       ]
     },
