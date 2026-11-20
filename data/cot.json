@@ -1,46 +1,30 @@
 {
-  "updated": "2026-11-20T15:56:00.378656Z",
+  "updated": "2026-11-20T20:49:26.720474Z",
   "source": "CFTC Commitment of Traders \u2014 Legacy Futures Only",
   "note": "Non-commercial (speculative) net positions. Percentile of 3-year range.",
-  "report_date": "2026-11-10",
+  "report_date": "2026-11-17",
   "instruments": [
     {
       "asset": "EUR/USD",
-      "cftc_name": "EURO FX/JAPANESE YEN XRATE - CHICAGO MERCANTILE EXCHANGE",
+      "cftc_name": "EURO FX/BRITISH POUND XRATE - CHICAGO MERCANTILE EXCHANGE",
       "category": "FX",
       "tags": [
         "EUR",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": -136396,
-      "longs": 227478,
-      "shorts": 363874,
-      "oi": 854705,
-      "week_chg": 21395,
-      "pctile": 6,
-      "direction": "short",
-      "crowd": "extreme-short",
-      "signal": {
-        "type": "LONG",
-        "strength": "strong",
-        "color": "green"
-      },
+      "date": "2026-11-17",
+      "net": 1455,
+      "longs": 4483,
+      "shorts": 3028,
+      "oi": 20825,
+      "week_chg": 620,
+      "pctile": 47,
+      "direction": "long",
+      "crowd": "neutral",
+      "signal": null,
       "net_min": -157791,
       "net_max": 180305,
       "history": [
-        {
-          "date": "2026-09-15",
-          "net": -637
-        },
-        {
-          "date": "2026-09-15",
-          "net": -26993
-        },
-        {
-          "date": "2026-09-15",
-          "net": 2355
-        },
         {
           "date": "2026-09-22",
           "net": -205
@@ -123,7 +107,7 @@
         },
         {
           "date": "2026-11-10",
-          "net": 835
+          "net": -136396
         },
         {
           "date": "2026-11-10",
@@ -131,7 +115,19 @@
         },
         {
           "date": "2026-11-10",
-          "net": -136396
+          "net": 835
+        },
+        {
+          "date": "2026-11-17",
+          "net": -3216
+        },
+        {
+          "date": "2026-11-17",
+          "net": -142710
+        },
+        {
+          "date": "2026-11-17",
+          "net": 1455
         }
       ]
     },
@@ -143,27 +139,19 @@
         "GBP",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": -43216,
-      "longs": 62005,
-      "shorts": 105221,
-      "oi": 219869,
-      "week_chg": 16605,
-      "pctile": 40,
+      "date": "2026-11-17",
+      "net": -32304,
+      "longs": 70999,
+      "shorts": 103303,
+      "oi": 233499,
+      "week_chg": 10912,
+      "pctile": 47,
       "direction": "short",
-      "crowd": "short",
+      "crowd": "neutral",
       "signal": null,
       "net_min": -106964,
       "net_max": 51634,
       "history": [
-        {
-          "date": "2026-08-18",
-          "net": -54573
-        },
-        {
-          "date": "2026-08-18",
-          "net": -212
-        },
         {
           "date": "2026-08-25",
           "net": -44524
@@ -254,11 +242,19 @@
         },
         {
           "date": "2026-11-10",
-          "net": -2583
+          "net": -43216
         },
         {
           "date": "2026-11-10",
-          "net": -43216
+          "net": -2583
+        },
+        {
+          "date": "2026-11-17",
+          "net": -3216
+        },
+        {
+          "date": "2026-11-17",
+          "net": -32304
         }
       ]
     },
@@ -270,13 +266,13 @@
         "JPY",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": 123113,
-      "longs": 249759,
-      "shorts": 126646,
-      "oi": 388875,
-      "week_chg": 20792,
-      "pctile": 84,
+      "date": "2026-11-17",
+      "net": 116317,
+      "longs": 258756,
+      "shorts": 142439,
+      "oi": 390361,
+      "week_chg": -6796,
+      "pctile": 82,
       "direction": "long",
       "crowd": "extreme-long",
       "signal": {
@@ -287,14 +283,6 @@
       "net_min": -163412,
       "net_max": 179212,
       "history": [
-        {
-          "date": "2026-08-11",
-          "net": 2740
-        },
-        {
-          "date": "2026-08-18",
-          "net": -52893
-        },
         {
           "date": "2026-08-18",
           "net": 2656
@@ -385,11 +373,19 @@
         },
         {
           "date": "2026-11-10",
-          "net": 835
+          "net": 123113
         },
         {
           "date": "2026-11-10",
-          "net": 123113
+          "net": 835
+        },
+        {
+          "date": "2026-11-17",
+          "net": 1455
+        },
+        {
+          "date": "2026-11-17",
+          "net": 116317
         }
       ]
     },
@@ -401,12 +397,12 @@
         "AUD",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": -151753,
-      "longs": 98447,
-      "shorts": 250200,
-      "oi": 352859,
-      "week_chg": -22296,
+      "date": "2026-11-17",
+      "net": -182060,
+      "longs": 81148,
+      "shorts": 263208,
+      "oi": 374281,
+      "week_chg": -30307,
       "pctile": 0,
       "direction": "short",
       "crowd": "extreme-short",
@@ -415,13 +411,9 @@
         "strength": "strong",
         "color": "green"
       },
-      "net_min": -151753,
+      "net_min": -182060,
       "net_max": 85644,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": 85644
-        },
         {
           "date": "2026-05-26",
           "net": 60155
@@ -521,6 +513,10 @@
         {
           "date": "2026-11-10",
           "net": -151753
+        },
+        {
+          "date": "2026-11-17",
+          "net": -182060
         }
       ]
     },
@@ -532,27 +528,19 @@
         "CAD",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": -32592,
-      "longs": 107703,
-      "shorts": 140295,
-      "oi": 342677,
-      "week_chg": 9183,
-      "pctile": 70,
+      "date": "2026-11-17",
+      "net": -45048,
+      "longs": 111591,
+      "shorts": 156639,
+      "oi": 358186,
+      "week_chg": -12456,
+      "pctile": 65,
       "direction": "short",
       "crowd": "long",
-      "signal": {
-        "type": "SHORT",
-        "strength": "mild",
-        "color": "amber"
-      },
+      "signal": null,
       "net_min": -196263,
       "net_max": 36159,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": -31231
-        },
         {
           "date": "2026-05-26",
           "net": -68882
@@ -652,6 +640,10 @@
         {
           "date": "2026-11-10",
           "net": -32592
+        },
+        {
+          "date": "2026-11-17",
+          "net": -45048
         }
       ]
     },
@@ -663,13 +655,13 @@
         "CHF",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": -9153,
-      "longs": 32614,
-      "shorts": 41767,
-      "oi": 126378,
-      "week_chg": 7436,
-      "pctile": 88,
+      "date": "2026-11-17",
+      "net": -8281,
+      "longs": 33456,
+      "shorts": 41737,
+      "oi": 126410,
+      "week_chg": 872,
+      "pctile": 90,
       "direction": "short",
       "crowd": "extreme-long",
       "signal": {
@@ -680,10 +672,6 @@
       "net_min": -49793,
       "net_max": -3445,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": -36937
-        },
         {
           "date": "2026-05-26",
           "net": -35140
@@ -783,6 +771,10 @@
         {
           "date": "2026-11-10",
           "net": -9153
+        },
+        {
+          "date": "2026-11-17",
+          "net": -8281
         }
       ]
     },
@@ -1180,69 +1172,25 @@
     },
     {
       "asset": "S&P 500",
-      "cftc_name": "E-MINI S&P TECHNOLOGY INDEX - CHICAGO MERCANTILE EXCHANGE",
+      "cftc_name": "E-MINI S&P HEALTH CARE INDEX - CHICAGO MERCANTILE EXCHANGE",
       "category": "Equity",
       "tags": [
         "EQUITY",
         "USD"
       ],
-      "date": "2026-11-10",
-      "net": 1708,
-      "longs": 4228,
-      "shorts": 2520,
-      "oi": 28195,
-      "week_chg": -433,
-      "pctile": 63,
+      "date": "2026-11-17",
+      "net": 615,
+      "longs": 1426,
+      "shorts": 811,
+      "oi": 14277,
+      "week_chg": 150,
+      "pctile": 59,
       "direction": "long",
-      "crowd": "long",
+      "crowd": "neutral",
       "signal": null,
       "net_min": -178977,
-      "net_max": 108739,
+      "net_max": 123109,
       "history": [
-        {
-          "date": "2026-10-27",
-          "net": 3448
-        },
-        {
-          "date": "2026-10-27",
-          "net": 3788
-        },
-        {
-          "date": "2026-11-03",
-          "net": 1842
-        },
-        {
-          "date": "2026-11-03",
-          "net": 1588
-        },
-        {
-          "date": "2026-11-03",
-          "net": 70515
-        },
-        {
-          "date": "2026-11-03",
-          "net": 2899
-        },
-        {
-          "date": "2026-11-03",
-          "net": -129414
-        },
-        {
-          "date": "2026-11-03",
-          "net": 1246
-        },
-        {
-          "date": "2026-11-03",
-          "net": 2901
-        },
-        {
-          "date": "2026-11-03",
-          "net": -515
-        },
-        {
-          "date": "2026-11-03",
-          "net": 417
-        },
         {
           "date": "2026-11-03",
           "net": 5718
@@ -1257,43 +1205,7 @@
         },
         {
           "date": "2026-11-10",
-          "net": 465
-        },
-        {
-          "date": "2026-11-10",
-          "net": 1149
-        },
-        {
-          "date": "2026-11-10",
-          "net": 2406
-        },
-        {
-          "date": "2026-11-10",
-          "net": 5316
-        },
-        {
-          "date": "2026-11-10",
-          "net": -247
-        },
-        {
-          "date": "2026-11-10",
-          "net": 108739
-        },
-        {
-          "date": "2026-11-10",
-          "net": 2778
-        },
-        {
-          "date": "2026-11-10",
-          "net": -138634
-        },
-        {
-          "date": "2026-11-10",
-          "net": 3204
-        },
-        {
-          "date": "2026-11-10",
-          "net": 1226
+          "net": 1708
         },
         {
           "date": "2026-11-10",
@@ -1301,7 +1213,87 @@
         },
         {
           "date": "2026-11-10",
-          "net": 1708
+          "net": 1226
+        },
+        {
+          "date": "2026-11-10",
+          "net": 3204
+        },
+        {
+          "date": "2026-11-10",
+          "net": -138634
+        },
+        {
+          "date": "2026-11-10",
+          "net": 2778
+        },
+        {
+          "date": "2026-11-10",
+          "net": 108739
+        },
+        {
+          "date": "2026-11-10",
+          "net": -247
+        },
+        {
+          "date": "2026-11-10",
+          "net": 5316
+        },
+        {
+          "date": "2026-11-10",
+          "net": 2406
+        },
+        {
+          "date": "2026-11-10",
+          "net": 1149
+        },
+        {
+          "date": "2026-11-10",
+          "net": 465
+        },
+        {
+          "date": "2026-11-17",
+          "net": 3530
+        },
+        {
+          "date": "2026-11-17",
+          "net": 1476
+        },
+        {
+          "date": "2026-11-17",
+          "net": 4921
+        },
+        {
+          "date": "2026-11-17",
+          "net": -3682
+        },
+        {
+          "date": "2026-11-17",
+          "net": 123109
+        },
+        {
+          "date": "2026-11-17",
+          "net": 3164
+        },
+        {
+          "date": "2026-11-17",
+          "net": 3383
+        },
+        {
+          "date": "2026-11-17",
+          "net": 3163
+        },
+        {
+          "date": "2026-11-17",
+          "net": 1635
+        },
+        {
+          "date": "2026-11-17",
+          "net": -93966
+        },
+        {
+          "date": "2026-11-17",
+          "net": 615
         }
       ]
     },
@@ -1313,27 +1305,19 @@
         "EQUITY",
         "USD"
       ],
-      "date": "2026-11-10",
-      "net": 33821,
-      "longs": 77244,
-      "shorts": 43423,
-      "oi": 306100,
-      "week_chg": -11395,
-      "pctile": 79,
+      "date": "2026-11-17",
+      "net": 8636,
+      "longs": 71647,
+      "shorts": 63011,
+      "oi": 314318,
+      "week_chg": -25186,
+      "pctile": 53,
       "direction": "long",
-      "crowd": "long",
-      "signal": {
-        "type": "SHORT",
-        "strength": "mild",
-        "color": "amber"
-      },
+      "crowd": "neutral",
+      "signal": null,
       "net_min": -42905,
       "net_max": 54111,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": -7399
-        },
         {
           "date": "2026-05-26",
           "net": -11282
@@ -1433,6 +1417,10 @@
         {
           "date": "2026-11-10",
           "net": 33821
+        },
+        {
+          "date": "2026-11-17",
+          "net": 8636
         }
       ]
     },
@@ -1444,23 +1432,19 @@
         "EQUITY",
         "USD"
       ],
-      "date": "2026-11-10",
-      "net": 2910,
-      "longs": 4677,
-      "shorts": 1767,
-      "oi": 68765,
-      "week_chg": 2194,
-      "pctile": 58,
+      "date": "2026-11-17",
+      "net": 1908,
+      "longs": 6071,
+      "shorts": 4163,
+      "oi": 63790,
+      "week_chg": -1002,
+      "pctile": 53,
       "direction": "long",
       "crowd": "neutral",
       "signal": null,
       "net_min": -9729,
       "net_max": 12049,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": 11791
-        },
         {
           "date": "2026-05-26",
           "net": 10110
@@ -1560,6 +1544,10 @@
         {
           "date": "2026-11-10",
           "net": 2910
+        },
+        {
+          "date": "2026-11-17",
+          "net": 1908
         }
       ]
     },
@@ -1570,23 +1558,19 @@
       "tags": [
         "EQUITY"
       ],
-      "date": "2026-11-10",
-      "net": -46157,
-      "longs": 84844,
-      "shorts": 131001,
-      "oi": 355713,
-      "week_chg": 30759,
-      "pctile": 57,
+      "date": "2026-11-17",
+      "net": -42924,
+      "longs": 93801,
+      "shorts": 136725,
+      "oi": 397522,
+      "week_chg": 3233,
+      "pctile": 59,
       "direction": "short",
       "crowd": "neutral",
       "signal": null,
       "net_min": -120434,
       "net_max": 10943,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": -55769
-        },
         {
           "date": "2026-05-26",
           "net": -54484
@@ -1686,6 +1670,10 @@
         {
           "date": "2026-11-10",
           "net": -46157
+        },
+        {
+          "date": "2026-11-17",
+          "net": -42924
         }
       ]
     },
@@ -1696,35 +1684,19 @@
       "tags": [
         "COMMODITY"
       ],
-      "date": "2026-11-10",
-      "net": -20151,
-      "longs": 54739,
-      "shorts": 74890,
-      "oi": 111708,
-      "week_chg": 1014,
-      "pctile": 7,
-      "direction": "short",
-      "crowd": "extreme-short",
-      "signal": {
-        "type": "LONG",
-        "strength": "strong",
-        "color": "green"
-      },
+      "date": "2026-11-17",
+      "net": 166132,
+      "longs": 210051,
+      "shorts": 43919,
+      "oi": 407834,
+      "week_chg": -23975,
+      "pctile": 67,
+      "direction": "long",
+      "crowd": "long",
+      "signal": null,
       "net_min": -40665,
       "net_max": 266749,
       "history": [
-        {
-          "date": "2026-09-15",
-          "net": 230338
-        },
-        {
-          "date": "2026-09-15",
-          "net": -18727
-        },
-        {
-          "date": "2026-09-22",
-          "net": -327
-        },
         {
           "date": "2026-09-22",
           "net": 225853
@@ -1816,6 +1788,18 @@
         {
           "date": "2026-11-10",
           "net": -20151
+        },
+        {
+          "date": "2026-11-17",
+          "net": -296
+        },
+        {
+          "date": "2026-11-17",
+          "net": -18517
+        },
+        {
+          "date": "2026-11-17",
+          "net": 166132
         }
       ]
     },
@@ -1826,31 +1810,23 @@
       "tags": [
         "COMMODITY"
       ],
-      "date": "2026-11-10",
-      "net": 19364,
-      "longs": 36151,
-      "shorts": 16787,
-      "oi": 115652,
-      "week_chg": -1887,
-      "pctile": 42,
-      "direction": "long",
-      "crowd": "neutral",
-      "signal": null,
+      "date": "2026-11-17",
+      "net": -6152,
+      "longs": 5884,
+      "shorts": 12036,
+      "oi": 12718,
+      "week_chg": 0,
+      "pctile": 11,
+      "direction": "short",
+      "crowd": "extreme-short",
+      "signal": {
+        "type": "LONG",
+        "strength": "strong",
+        "color": "green"
+      },
       "net_min": -15347,
       "net_max": 67174,
       "history": [
-        {
-          "date": "2026-06-09",
-          "net": 22214
-        },
-        {
-          "date": "2026-06-16",
-          "net": 24544
-        },
-        {
-          "date": "2026-06-23",
-          "net": 23751
-        },
         {
           "date": "2026-06-30",
           "net": 27368
@@ -1942,6 +1918,18 @@
         {
           "date": "2026-11-10",
           "net": 19364
+        },
+        {
+          "date": "2026-11-17",
+          "net": -3541
+        },
+        {
+          "date": "2026-11-17",
+          "net": 18291
+        },
+        {
+          "date": "2026-11-17",
+          "net": -6152
         }
       ]
     },
@@ -1952,13 +1940,13 @@
       "tags": [
         "COMMODITY"
       ],
-      "date": "2026-11-10",
-      "net": -21861,
-      "longs": 59598,
-      "shorts": 81459,
-      "oi": 776209,
-      "week_chg": 3290,
-      "pctile": 17,
+      "date": "2026-11-17",
+      "net": -19569,
+      "longs": 68297,
+      "shorts": 87866,
+      "oi": 749158,
+      "week_chg": 2292,
+      "pctile": 19,
       "direction": "short",
       "crowd": "extreme-short",
       "signal": {
@@ -1969,10 +1957,6 @@
       "net_min": -45002,
       "net_max": 90768,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": -28256
-        },
         {
           "date": "2026-05-26",
           "net": -27232
@@ -2072,6 +2056,10 @@
         {
           "date": "2026-11-10",
           "net": -21861
+        },
+        {
+          "date": "2026-11-17",
+          "net": -19569
         }
       ]
     },
@@ -2212,23 +2200,19 @@
       "tags": [
         "COMMODITY"
       ],
-      "date": "2026-11-10",
-      "net": 28904,
-      "longs": 83735,
-      "shorts": 54831,
-      "oi": 314115,
-      "week_chg": -8806,
-      "pctile": 49,
+      "date": "2026-11-17",
+      "net": 17777,
+      "longs": 76467,
+      "shorts": 58690,
+      "oi": 314991,
+      "week_chg": -11127,
+      "pctile": 40,
       "direction": "long",
-      "crowd": "neutral",
+      "crowd": "short",
       "signal": null,
       "net_min": -32697,
       "net_max": 92476,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": 75886
-        },
         {
           "date": "2026-05-26",
           "net": 73040
@@ -2328,142 +2312,15 @@
         {
           "date": "2026-11-10",
           "net": 28904
+        },
+        {
+          "date": "2026-11-17",
+          "net": 17777
         }
       ]
     }
   ],
   "extremes": [
-    {
-      "asset": "EUR/USD",
-      "cftc_name": "EURO FX/JAPANESE YEN XRATE - CHICAGO MERCANTILE EXCHANGE",
-      "category": "FX",
-      "tags": [
-        "EUR",
-        "FX"
-      ],
-      "date": "2026-11-10",
-      "net": -136396,
-      "longs": 227478,
-      "shorts": 363874,
-      "oi": 854705,
-      "week_chg": 21395,
-      "pctile": 6,
-      "direction": "short",
-      "crowd": "extreme-short",
-      "signal": {
-        "type": "LONG",
-        "strength": "strong",
-        "color": "green"
-      },
-      "net_min": -157791,
-      "net_max": 180305,
-      "history": [
-        {
-          "date": "2026-09-15",
-          "net": -637
-        },
-        {
-          "date": "2026-09-15",
-          "net": -26993
-        },
-        {
-          "date": "2026-09-15",
-          "net": 2355
-        },
-        {
-          "date": "2026-09-22",
-          "net": -205
-        },
-        {
-          "date": "2026-09-22",
-          "net": 1942
-        },
-        {
-          "date": "2026-09-22",
-          "net": -52334
-        },
-        {
-          "date": "2026-09-29",
-          "net": -63256
-        },
-        {
-          "date": "2026-09-29",
-          "net": 190
-        },
-        {
-          "date": "2026-10-06",
-          "net": -900
-        },
-        {
-          "date": "2026-10-06",
-          "net": 1180
-        },
-        {
-          "date": "2026-10-06",
-          "net": -99332
-        },
-        {
-          "date": "2026-10-13",
-          "net": -137573
-        },
-        {
-          "date": "2026-10-13",
-          "net": 1635
-        },
-        {
-          "date": "2026-10-13",
-          "net": -1222
-        },
-        {
-          "date": "2026-10-20",
-          "net": -134524
-        },
-        {
-          "date": "2026-10-20",
-          "net": -2401
-        },
-        {
-          "date": "2026-10-20",
-          "net": 1902
-        },
-        {
-          "date": "2026-10-27",
-          "net": -143894
-        },
-        {
-          "date": "2026-10-27",
-          "net": -1343
-        },
-        {
-          "date": "2026-10-27",
-          "net": 1894
-        },
-        {
-          "date": "2026-11-03",
-          "net": -157791
-        },
-        {
-          "date": "2026-11-03",
-          "net": 1872
-        },
-        {
-          "date": "2026-11-03",
-          "net": -2487
-        },
-        {
-          "date": "2026-11-10",
-          "net": 835
-        },
-        {
-          "date": "2026-11-10",
-          "net": -2583
-        },
-        {
-          "date": "2026-11-10",
-          "net": -136396
-        }
-      ]
-    },
     {
       "asset": "USD/JPY",
       "cftc_name": "EURO FX/JAPANESE YEN XRATE - CHICAGO MERCANTILE EXCHANGE",
@@ -2472,13 +2329,13 @@
         "JPY",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": 123113,
-      "longs": 249759,
-      "shorts": 126646,
-      "oi": 388875,
-      "week_chg": 20792,
-      "pctile": 84,
+      "date": "2026-11-17",
+      "net": 116317,
+      "longs": 258756,
+      "shorts": 142439,
+      "oi": 390361,
+      "week_chg": -6796,
+      "pctile": 82,
       "direction": "long",
       "crowd": "extreme-long",
       "signal": {
@@ -2489,14 +2346,6 @@
       "net_min": -163412,
       "net_max": 179212,
       "history": [
-        {
-          "date": "2026-08-11",
-          "net": 2740
-        },
-        {
-          "date": "2026-08-18",
-          "net": -52893
-        },
         {
           "date": "2026-08-18",
           "net": 2656
@@ -2587,11 +2436,19 @@
         },
         {
           "date": "2026-11-10",
-          "net": 835
+          "net": 123113
         },
         {
           "date": "2026-11-10",
-          "net": 123113
+          "net": 835
+        },
+        {
+          "date": "2026-11-17",
+          "net": 1455
+        },
+        {
+          "date": "2026-11-17",
+          "net": 116317
         }
       ]
     },
@@ -2603,12 +2460,12 @@
         "AUD",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": -151753,
-      "longs": 98447,
-      "shorts": 250200,
-      "oi": 352859,
-      "week_chg": -22296,
+      "date": "2026-11-17",
+      "net": -182060,
+      "longs": 81148,
+      "shorts": 263208,
+      "oi": 374281,
+      "week_chg": -30307,
       "pctile": 0,
       "direction": "short",
       "crowd": "extreme-short",
@@ -2617,13 +2474,9 @@
         "strength": "strong",
         "color": "green"
       },
-      "net_min": -151753,
+      "net_min": -182060,
       "net_max": 85644,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": 85644
-        },
         {
           "date": "2026-05-26",
           "net": 60155
@@ -2723,6 +2576,10 @@
         {
           "date": "2026-11-10",
           "net": -151753
+        },
+        {
+          "date": "2026-11-17",
+          "net": -182060
         }
       ]
     },
@@ -2734,13 +2591,13 @@
         "CHF",
         "FX"
       ],
-      "date": "2026-11-10",
-      "net": -9153,
-      "longs": 32614,
-      "shorts": 41767,
-      "oi": 126378,
-      "week_chg": 7436,
-      "pctile": 88,
+      "date": "2026-11-17",
+      "net": -8281,
+      "longs": 33456,
+      "shorts": 41737,
+      "oi": 126410,
+      "week_chg": 872,
+      "pctile": 90,
       "direction": "short",
       "crowd": "extreme-long",
       "signal": {
@@ -2751,10 +2608,6 @@
       "net_min": -49793,
       "net_max": -3445,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": -36937
-        },
         {
           "date": "2026-05-26",
           "net": -35140
@@ -2854,6 +2707,10 @@
         {
           "date": "2026-11-10",
           "net": -9153
+        },
+        {
+          "date": "2026-11-17",
+          "net": -8281
         }
       ]
     },
@@ -2989,19 +2846,19 @@
       ]
     },
     {
-      "asset": "Gold",
-      "cftc_name": "PAX GOLD PERP STYLE - COINBASE DERIVATIVES, LLC",
+      "asset": "Silver",
+      "cftc_name": "MICRO SILVER - COMMODITY EXCHANGE INC.",
       "category": "Commodities",
       "tags": [
         "COMMODITY"
       ],
-      "date": "2026-11-10",
-      "net": -20151,
-      "longs": 54739,
-      "shorts": 74890,
-      "oi": 111708,
-      "week_chg": 1014,
-      "pctile": 7,
+      "date": "2026-11-17",
+      "net": -6152,
+      "longs": 5884,
+      "shorts": 12036,
+      "oi": 12718,
+      "week_chg": 0,
+      "pctile": 11,
       "direction": "short",
       "crowd": "extreme-short",
       "signal": {
@@ -3009,112 +2866,112 @@
         "strength": "strong",
         "color": "green"
       },
-      "net_min": -40665,
-      "net_max": 266749,
+      "net_min": -15347,
+      "net_max": 67174,
       "history": [
         {
-          "date": "2026-09-15",
-          "net": 230338
+          "date": "2026-06-30",
+          "net": 27368
+        },
+        {
+          "date": "2026-07-07",
+          "net": 28015
+        },
+        {
+          "date": "2026-07-14",
+          "net": 25074
+        },
+        {
+          "date": "2026-07-21",
+          "net": 23465
+        },
+        {
+          "date": "2026-07-28",
+          "net": 22217
+        },
+        {
+          "date": "2026-08-04",
+          "net": 22280
+        },
+        {
+          "date": "2026-08-11",
+          "net": 23646
+        },
+        {
+          "date": "2026-08-18",
+          "net": 23625
+        },
+        {
+          "date": "2026-08-25",
+          "net": 25261
+        },
+        {
+          "date": "2026-09-01",
+          "net": 26739
+        },
+        {
+          "date": "2026-09-08",
+          "net": 26049
         },
         {
           "date": "2026-09-15",
-          "net": -18727
+          "net": 25326
         },
         {
           "date": "2026-09-22",
-          "net": -327
-        },
-        {
-          "date": "2026-09-22",
-          "net": 225853
-        },
-        {
-          "date": "2026-09-22",
-          "net": -23913
+          "net": 25444
         },
         {
           "date": "2026-09-29",
-          "net": -619
-        },
-        {
-          "date": "2026-09-29",
-          "net": -24756
-        },
-        {
-          "date": "2026-09-29",
-          "net": 218632
+          "net": 22083
         },
         {
           "date": "2026-10-06",
-          "net": -641
-        },
-        {
-          "date": "2026-10-06",
-          "net": -27012
-        },
-        {
-          "date": "2026-10-06",
-          "net": 210335
+          "net": 23153
         },
         {
           "date": "2026-10-13",
-          "net": -500
+          "net": 22631
         },
         {
           "date": "2026-10-13",
-          "net": -28058
-        },
-        {
-          "date": "2026-10-13",
-          "net": 207879
+          "net": -5577
         },
         {
           "date": "2026-10-20",
-          "net": 266
+          "net": -5294
         },
         {
           "date": "2026-10-20",
-          "net": 199865
-        },
-        {
-          "date": "2026-10-20",
-          "net": -25679
+          "net": 19795
         },
         {
           "date": "2026-10-27",
-          "net": 594
-        },
-        {
-          "date": "2026-10-27",
-          "net": 186451
-        },
-        {
-          "date": "2026-10-27",
-          "net": -23368
+          "net": 19703
         },
         {
           "date": "2026-11-03",
-          "net": 418
-        },
-        {
-          "date": "2026-11-03",
-          "net": 179548
-        },
-        {
-          "date": "2026-11-03",
-          "net": -21165
+          "net": 21251
         },
         {
           "date": "2026-11-10",
-          "net": -312
+          "net": -4001
         },
         {
           "date": "2026-11-10",
-          "net": 190107
+          "net": 19364
         },
         {
-          "date": "2026-11-10",
-          "net": -20151
+          "date": "2026-11-17",
+          "net": -3541
+        },
+        {
+          "date": "2026-11-17",
+          "net": 18291
+        },
+        {
+          "date": "2026-11-17",
+          "net": -6152
         }
       ]
     },
@@ -3125,13 +2982,13 @@
       "tags": [
         "COMMODITY"
       ],
-      "date": "2026-11-10",
-      "net": -21861,
-      "longs": 59598,
-      "shorts": 81459,
-      "oi": 776209,
-      "week_chg": 3290,
-      "pctile": 17,
+      "date": "2026-11-17",
+      "net": -19569,
+      "longs": 68297,
+      "shorts": 87866,
+      "oi": 749158,
+      "week_chg": 2292,
+      "pctile": 19,
       "direction": "short",
       "crowd": "extreme-short",
       "signal": {
@@ -3142,10 +2999,6 @@
       "net_min": -45002,
       "net_max": 90768,
       "history": [
-        {
-          "date": "2026-05-19",
-          "net": -28256
-        },
         {
           "date": "2026-05-26",
           "net": -27232
@@ -3245,6 +3098,10 @@
         {
           "date": "2026-11-10",
           "net": -21861
+        },
+        {
+          "date": "2026-11-17",
+          "net": -19569
         }
       ]
     },
@@ -3385,9 +3242,9 @@
   "summary": {
     "total": 18,
     "extreme_long": 3,
-    "crowded_long": 4,
-    "neutral": 4,
+    "crowded_long": 3,
+    "neutral": 6,
     "crowded_short": 2,
-    "extreme_short": 5
+    "extreme_short": 4
   }
 }
