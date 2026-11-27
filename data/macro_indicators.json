@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:15:40.682403Z",
+  "updated": "2026-11-27T21:43:13.752733Z",
   "source": "Federal Reserve Economic Data (FRED)",
   "indicators": {
     "FEDFUNDS": {
@@ -35,15 +35,11 @@
     "DGS2": {
       "id": "DGS2",
       "label": "2Y Treasury Yield",
-      "value": 4.63,
+      "value": 4.61,
       "unit": "%",
-      "change": 0.0,
-      "date": "2026-11-24",
+      "change": -0.02,
+      "date": "2026-11-25",
       "history": [
-        {
-          "date": "2026-11-18",
-          "value": 4.8
-        },
         {
           "date": "2026-11-19",
           "value": 4.76
@@ -59,21 +55,21 @@
         {
           "date": "2026-11-24",
           "value": 4.63
+        },
+        {
+          "date": "2026-11-25",
+          "value": 4.61
         }
       ]
     },
     "DGS10": {
       "id": "DGS10",
       "label": "10Y Treasury Yield",
-      "value": 4.91,
+      "value": 4.85,
       "unit": "%",
-      "change": -0.01,
-      "date": "2026-11-24",
+      "change": -0.06,
+      "date": "2026-11-25",
       "history": [
-        {
-          "date": "2026-11-18",
-          "value": 5.07
-        },
         {
           "date": "2026-11-19",
           "value": 5.04
@@ -89,21 +85,21 @@
         {
           "date": "2026-11-24",
           "value": 4.91
+        },
+        {
+          "date": "2026-11-25",
+          "value": 4.85
         }
       ]
     },
     "DGS30": {
       "id": "DGS30",
       "label": "30Y Treasury Yield",
-      "value": 5.3,
+      "value": 5.24,
       "unit": "%",
-      "change": 0.01,
-      "date": "2026-11-24",
+      "change": -0.06,
+      "date": "2026-11-25",
       "history": [
-        {
-          "date": "2026-11-18",
-          "value": 5.41
-        },
         {
           "date": "2026-11-19",
           "value": 5.4
@@ -119,6 +115,10 @@
         {
           "date": "2026-11-24",
           "value": 5.3
+        },
+        {
+          "date": "2026-11-25",
+          "value": 5.24
         }
       ]
     },
